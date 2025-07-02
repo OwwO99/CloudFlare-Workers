@@ -1,4 +1,4 @@
-export default {Add commentMore actions
+export default {
   async fetch(request, env) {
     const url = new URL(request.url);
     url.host = "api.openai.com";
